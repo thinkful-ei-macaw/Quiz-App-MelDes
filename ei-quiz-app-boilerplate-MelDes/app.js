@@ -5,24 +5,54 @@ const store = {
   // 5 or more questions are required
   questions: [
     {
-      question: 'What color is broccoli?',
+      question: 'How does Daenerys Targaryen command her dragons to breathe fire?',
       answers: [
-        'red',
-        'orange',
-        'pink',
-        'green'
+        'Valor Morghulis',
+        'Khaleesi',
+        'Drogo',
+        'Dracarys'
       ],
-      correctAnswer: 'green'
+      correctAnswer: 'Dracarys'
     },
     {
-      question: 'What is the current year?',
+      question: 'Who is the Three-eyed Raven',
       answers: [
-        '1970',
-        '2015',
-        '2019',
-        '2005'
+        'Bran',
+        'Hodor',
+        'Sansa',
+        'Jon'
       ],
-      correctAnswer: '2019'
+      correctAnswer: 'Bran'
+    },
+    {
+      question: 'Jaime Lannister lost his: ',
+      answers: [
+        'hand',
+        'head',
+        'arm',
+        'leg'
+      ],
+      correctAnswer: 'hand'
+    },
+    {
+      question: 'Cersei Lannister was romantically in love with her: ',
+      answers: [
+        'twin brother',
+        'father',
+        'cousin',
+        'son'
+      ],
+      correctAnswer: 'twin brother'
+    },
+    {
+      question: 'Sansa\'s favorite food is: '
+      answers: [
+        'pork pie',
+        'lemon cake',
+        'pigeon pie',
+        'direwolf bread'
+      ],
+      correctAnswer: 'lemon cake'
     }
   ],
   questionNumber: 0,
