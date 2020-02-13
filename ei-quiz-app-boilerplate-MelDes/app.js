@@ -59,6 +59,29 @@ const store = {
   score: 0
 };
 
+//Create a render function to  "start quiz"
+
+//function to Generate questions 1 at a time
+
+//create a function to check the selected answer
+
+// if else statement to determine if answer
+//is correct and if not display correct answer
+
+//create a function to render the next question
+
+//create a function for user's score and question number
+
+//create a "no-skip" function
+
+//make responsive to keyboard
+
+//create a function to show overall ending score
+
+
+
+
+
 /**
  *
  * Your app should include a render() function, that regenerates
