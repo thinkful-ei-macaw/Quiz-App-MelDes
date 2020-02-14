@@ -1,6 +1,4 @@
-/**
- * Example store structure
- */
+
 const store = {
   // 5 or more questions are required
   questions: [
@@ -59,9 +57,64 @@ const store = {
   score: 0
 };
 
+//$(document).ready(function(){
+ // $('.start-screen start game').click(function(event){
+    //event.preventDefault();
+    //$('.start-screen').hide();
+    //$('.question-container'.showQuestion();
+  //});
+//});
+
+//function beginQuiz(){
+ // $(document).ready(function)
+ function handleStartClick() {
+
+  $('main').on('click' , '#start' , function (event) {
+  
+  STORE.quizStarted = true;
+  
+  render();
+$('.question-container ul').on('click','li', function(){
+  $('.selceted').removeClass('selected');
+  $(this).addClass('selected');
+});
+};
+
+//}
+//function render(){
+
+//}
+
+fuction showQuestion(){
+let question=questions[currentQuestion];
+$('.quiz h2').text(question);
+$('.quiz ul').html('');{
+for(var i=0; i<question.answers.length; i++){
+  $('quiz ul').append("<li id='"+i+"'+question>");
+}
+}
+
+
+
+
+
+//}
+function checkAnswer(choice)
+
+
+fuction showCorrectAnswer(){
+
+}
+function showResults(){
+
+}
+
+
+.//Render landing page, question page, results with css
 //Create a render function to  "start quiz"
 
 //function to Generate questions 1 at a time
+// function render(){
 
 //create a function to check the selected answer
 
